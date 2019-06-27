@@ -9,9 +9,9 @@ namespace Gitmvcexample.Models
     {
         public int operation(int x, int y)
         {
-            x = 5;
-            y = 3;
-           int c = x + y;
+            int a=x;
+            int b=y;
+            int c=a+b;
             return c;
         }
     }
